@@ -1,0 +1,238 @@
+/*GOOGLE FONTS*/
+@import url('https://fonts.googleapis.com/css?family=Philosopher');
+
+/*MOBILE*/
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Philosopher", sans-serif;
+    margin: 0;
+    padding: 0;
+    font-size: 0.618rem;
+    line-height: 1.618;
+    color: #FF730C;
+}
+
+.box {
+    ;
+    width: auto;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    text-align: center;
+    font-family: "Philosopher", sans-serif;
+}
+
+.tag-line {
+    background-image: url(masthead-bg.png);
+    background-repeat: repeat-x;
+    background-color: #0D1392;
+    width: 100%;
+}
+
+p {
+    text-align: left;
+}
+
+.clearfix::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.bg-header {
+    padding: 2% 0;  
+    background-color: #0D1392;
+}
+
+.bg-main {
+    padding: 3% 0;  
+    background-color: #0E15A3;
+}
+
+.masthead-bg {
+    padding: 5% 0;  
+    background-color: #CCC;
+}
+
+
+
+ul {
+    background-color: #678CE8;
+    max-width: 80rem;
+    list-style: none;
+    margin: 0;
+    padding: 1rem;
+}
+
+ul li {
+    display: block;
+}
+
+ul li a {
+    display: block;
+    padding: 1rem;
+    margin: 0 0 0.5rem 0;
+    text-align: center;
+    text-decoration: none;
+    border: 1px solid #CCC;
+    background-color: #FF6200;
+}
+
+ul li a:hover {
+    background-color: #DDD;   
+}
+.box {
+  
+    max-width: 60rem;
+    margin: 1rem;
+    text-align: center;
+    
+}
+
+figure {
+    margin: 0;
+    padding: 0;
+}
+
+figcaption {
+    margin: 0.5rem 0 0 0;
+}
+
+img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+/*navigation*/
+.nav-bg {
+    display: inline;
+}
+
+.nav-bg {
+    display: block;
+    padding: 1rem;
+    border: 1px solid #DDD;
+    margin: 0 0 0.5rem 0;
+}
+
+/*main-content*/
+.main-content-bg .box p {
+    text-align: left;
+}
+
+/*footer*/
+
+.footer {
+    background-color: #0E15A3;
+    border-top-style: groove;
+    border-bottom-style: groove;
+}
+.footer-bg .box {
+    border-top: 1px solid #05083D;
+}
+.footer-bg  {
+    display: inline;
+    
+}
+
+.footer-bg {
+    display: inline-block;
+    padding: 1rem;
+    border: 1px solid #DDD;
+    margin: 0 0.5rem 0 0;
+    color: #05083D;
+}
+
+.footer-bg li:last-child a {
+    margin: 0;
+}
+
+.foot {
+    text-align: center;
+}
+
+.icons {
+    display: inline-block;
+    background-color: #05083D;
+} 
+
+
+
+/*TABLET*/
+@media screen and (min-width: 35rem) {
+    
+    body {
+        font-size: 1rem;
+    }
+    
+    .box {
+        margin: 2rem;
+    }
+    
+    ul li {
+    display: inline-block;
+    }
+    
+    /*adjusting nav*/
+    .nav-bg li a {
+        width: calc(33.33% - 1rem + 0.33rem);
+        float: left;
+        margin: 0 1rem 0 0;
+    }
+    
+    .nav-bg li:last-child a {
+        margin: 0;
+    }
+    
+    /*adjusting image*/
+    figure {
+        width: 25%;
+        float: left;
+        margin: 0 1rem 0 0;
+    }
+    
+    figcaption {
+        text-align: left;
+    }
+}
+
+/*DESKTOP*/
+@media screen and (min-width: 80rem) {
+    
+    .box {       
+        font-size: 1.618rem;
+        margin: 2rem auto;
+    }
+    
+    .masthead-bg {
+        padding: 1% 0;
+    }
+    
+    .tag-line {
+        font-size: 1.6rem;
+        text-align: left;
+    }
+    
+    figure {
+        width: 40%;
+        margin: 0 2rem 1rem 0;
+    }
+    
+    .footer-bg .box {
+        text-align: left; 
+    }
+    
+    .world {
+        float: left;
+        width: 50%;
+    }
+    
+    .gmo {
+        float: left;
+        width: 50%;
+    }
+}
